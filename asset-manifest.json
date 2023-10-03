@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Rollingthunder_ttu/static/css/main.788de0ef.css",
+    "main.js": "/Rollingthunder_ttu/static/js/main.a878e7fb.js",
+    "static/js/787.e7951cf5.chunk.js": "/Rollingthunder_ttu/static/js/787.e7951cf5.chunk.js",
+    "static/media/logo.svg": "/Rollingthunder_ttu/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Rollingthunder_ttu/index.html",
+    "main.788de0ef.css.map": "/Rollingthunder_ttu/static/css/main.788de0ef.css.map",
+    "main.a878e7fb.js.map": "/Rollingthunder_ttu/static/js/main.a878e7fb.js.map",
+    "787.e7951cf5.chunk.js.map": "/Rollingthunder_ttu/static/js/787.e7951cf5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.788de0ef.css",
+    "static/js/main.a878e7fb.js"
+  ]
+}
