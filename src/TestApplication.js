@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import image1 from "./images/image-from-rawpixel-id-3318351-original.jpg"
 function TestApplication(){
     
     return(
         <div style={{ 
-            backgroundImage: `url("https://i.imgur.com/Sk2SgVp.jpeg")`,
+            backgroundImage: `url(${image1})`,
             width: window.screen.width,
             height: window.screen.height
           }}>
