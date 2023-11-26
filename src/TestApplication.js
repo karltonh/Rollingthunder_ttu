@@ -19,9 +19,9 @@ function TestApplication(){
     }
 
     const handleSubmit = async () => {
-        setAnswer("testing!")
+        setAnswer("Fetching Answer...")
         try {
-          const response = await fetch("https://cebc-35-247-176-24.ngrok-free.app/test", {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({query: question })}).then(response => response.json());
+          const response = await fetch("https://64ac-35-247-176-24.ngrok-free.app/test", {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({query: question })}).then(response => response.json());
           //const response = await fetch(url, {
            // method: "POST",
             //headers: {
