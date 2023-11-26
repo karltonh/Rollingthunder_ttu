@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'speedway';
+  src: local('speedway'), url(./fonts/Speedway-1080.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'vcr';
+  src: local('vcr'), url(./fonts/vcr-jp.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'kogni';
+  src: local('kogni'), url(./fonts/LazenbyCompSmooth.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'prstart';
+  src: local('prstart'), url(./fonts/prstart.ttf) format('truetype');
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.navigationbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+ }
+ .background {
+  background-color: rgb(0, 0, 0);
+  overflow: hidden;
+}
+
+.navitems a{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: prstart;
+}
+.navitems li{
+  float: left;
+  list-style-type: none;
+}
+.navitems li:hover{
+  background-color: rgb(90, 90, 90);
+}
+.title{
+  text-align: center;
+  font-family: speedway;
+  font-size:40px;
+  color: rgb(241, 241, 241);
+  background-color: rgb(0, 0, 0);
+}
+.qblabel{
+  align-items: center;
+  margin-top: 10%;
+  margin-left: 20%;
+  width: 60%;
+  height: 10%;
+  font-family: vcr;
+}
+.questionbox{
+  width: 100%;
+  height: 50%;
+  resize: none;
+}
+.answerbox{
+  width: 100%;
+  height: 50%;
+  align-self: center;
+  resize: none;
+}
+.page-header{
+  font-family: kogni;
+  font-size: xx-large;
+  text-align: center;
+}
+.text-header{
+  font-family: kogni;
+  font-size: x-large;
+}
+.text-subheader{
+  font-family: kogni;
+  font-size: larger;
+}
+.text{
+  font-family: vcr;
+  font-size: smaller;
+}
+.subtext{
+  font-family: vcr;
+  font-size: x-small;
+}
+
+.each-slide-effect > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 800px;
+}
+
+.each-slide-effect span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
