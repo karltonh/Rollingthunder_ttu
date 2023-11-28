@@ -21,7 +21,7 @@ function TestApplication(){
     const handleSubmit = async () => {
         setAnswer("Fetching Answer...")
         try {
-          const response = await fetch("https://64ac-35-247-176-24.ngrok-free.app/test", {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({query: question })}).then(response => response.json());
+          const response = await fetch("https://03a4-35-233-200-74.ngrok-free.app/test", {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({query: question })}).then(response => response.json());
           //const response = await fetch(url, {
            // method: "POST",
             //headers: {
@@ -31,9 +31,9 @@ function TestApplication(){
       //});
 
       const result = response.result;
-      setAnswer(result);
+      setAnswer(result.trim());
     } catch (error) {
-      setAnswer(error)
+      setAnswer("Server is down :C")
       console.error('Error submitting question:', error);
     }
   };
@@ -60,7 +60,7 @@ function TestApplication(){
         <textarea 
                     class="answerbox" 
                     rows={5}  
-                    cols={20} 
+                    cols={200} 
                     placeholder='ANSWER'
                     value={answer}
                     onChange={handleQuestionChange}

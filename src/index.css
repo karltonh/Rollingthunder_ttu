@@ -77,10 +77,14 @@ code {
   resize: none;
 }
 .answerbox{
-  width: 100%;
+  width: 60%;
   height: 50%;
-  align-self: center;
+  margin-left: 20%;
+  text-align: start;
+  height: 10%;
+  font-family: vcr;
   resize: none;
+  opacity: 100%;
 }
 .page-header{
   font-family: kogni;
