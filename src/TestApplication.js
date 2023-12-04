@@ -7,21 +7,26 @@ function TestApplication(){
 
     const [question, setQuestion] = useState('');
     const [answer, setAnswer] = useState('');
-    const url = 'https://bb78-34-67-45-211.ngrok-free.app/test'
+    const [info, setInfo] = useState('');
+    const url = 'https://1b69-34-125-223-52.ngrok.io/test'
     const answ = ""
     const handleQuestionChange = (event) => {
         setQuestion(event.target.value);
     }
-
+    const handleInfoChange = (event) => {
+        setInfo(event.target.value);
+    }
     const handleClear = () => {
         setQuestion('');
         setAnswer('');
+        setInfo('')
     }
 
     const handleSubmit = async () => {
         setAnswer("Fetching Answer...")
+        setInfo('<query result source information>')
         try {
-          const response = await fetch("https://03a4-35-233-200-74.ngrok-free.app/test", {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({query: question })}).then(response => response.json());
+          const response = await fetch("https://1694-34-125-223-52.ngrok.io/test", {method: 'POST', headers: {'Content-Type': 'text/plain'}, body: JSON.stringify({query: question })}).then(response => response.json());
           //const response = await fetch(url, {
            // method: "POST",
             //headers: {
@@ -30,10 +35,12 @@ function TestApplication(){
         //body: JSON.stringify({query: question }),
       //});
 
-      const result = response.result;
+      const result = String(response.result);
+      const source = String(response.source);
       setAnswer(result.trim());
+      setInfo(source.trim())
     } catch (error) {
-      setAnswer("Server is down :C")
+      setAnswer("Server is down :(")
       console.error('Error submitting question:', error);
     }
   };
@@ -64,6 +71,15 @@ function TestApplication(){
                     placeholder='ANSWER'
                     value={answer}
                     onChange={handleQuestionChange}
+                    disabled='true'
+                />
+        <textarea 
+                    class="infobox" 
+                    rows={5}  
+                    cols={200} 
+                    placeholder='INFO'
+                    value={info}
+                    onChange={handleInfoChange}
                     disabled='true'
                 />
         </div>

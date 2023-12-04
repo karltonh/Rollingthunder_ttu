@@ -78,12 +78,19 @@ code {
 }
 .answerbox{
   width: 60%;
-  height: 50%;
+  height: 90%;
   margin-left: 20%;
   text-align: start;
-  height: 10%;
   font-family: vcr;
-  resize: none;
+  opacity: 100%;
+}
+.infobox{
+  width: 60%;
+  height: 90%;
+  margin-left: 20%;
+  margin-bottom: 20%;
+  text-align: start;
+  font-family: vcr;
   opacity: 100%;
 }
 .page-header{
