@@ -5,6 +5,7 @@ import 'react-slideshow-image/dist/styles.css';
 import image1 from "./images/classdiagram.jpg"
 import image2 from "./images/usecasediagram.jpg"
 import image3 from "./images/UseCaseDiagramLLMUpdated2.jpg"
+import image4 from "./images/components.jpg"
 
 function Home(){
 
@@ -43,6 +44,11 @@ The user will access the LLM through our website. The website will allow the use
             <div className="each-slide-effect">
                 <div style={{ 'backgroundImage': {image3} }}>
                     <img src={image3}/>
+                </div>
+            </div>
+            <div className="each-slide-effect2">
+                <div style={{ 'backgroundImage': {image4} }}>
+                    <img src={image4}/>
                 </div>
             </div>
         </Slide>

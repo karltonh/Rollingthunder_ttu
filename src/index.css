@@ -122,10 +122,27 @@ code {
   background-size: cover;
   height: 800px;
 }
-
+.each-slide-effect2 > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+}
 .each-slide-effect span {
   padding: 20px;
   font-size: 20px;
   background: #efefef;
   text-align: center;
+}
+.bottomnav {
+  margin-bottom: 0%;
+  background-color: black;
+}
+.footer {
+  color: gray;
+  font-size: small;
+}
+.dependencies_image
+{
+  resize: 50%;
 }
