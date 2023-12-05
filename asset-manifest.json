@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Rollingthunder_ttu/static/css/main.381b9ada.css",
-    "main.js": "/Rollingthunder_ttu/static/js/main.98508e7b.js",
+    "main.js": "/Rollingthunder_ttu/static/js/main.9111a2aa.js",
     "static/media/image-from-rawpixel-id-3318351-original.jpg": "/Rollingthunder_ttu/static/media/image-from-rawpixel-id-3318351-original.71e26716bd11021a4a5e.jpg",
     "static/media/dependencies.jpg": "/Rollingthunder_ttu/static/media/dependencies.0755fd5022e2d9949cf1.jpg",
     "static/media/classdiagram.jpg": "/Rollingthunder_ttu/static/media/classdiagram.954cbd9174456170d1b6.jpg",
@@ -15,10 +15,10 @@
     "static/media/logo.svg": "/Rollingthunder_ttu/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Rollingthunder_ttu/index.html",
     "main.381b9ada.css.map": "/Rollingthunder_ttu/static/css/main.381b9ada.css.map",
-    "main.98508e7b.js.map": "/Rollingthunder_ttu/static/js/main.98508e7b.js.map"
+    "main.9111a2aa.js.map": "/Rollingthunder_ttu/static/js/main.9111a2aa.js.map"
   },
   "entrypoints": [
     "static/css/main.381b9ada.css",
-    "static/js/main.98508e7b.js"
+    "static/js/main.9111a2aa.js"
   ]
 }
