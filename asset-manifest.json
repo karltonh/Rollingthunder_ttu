@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/Rollingthunder_ttu/static/css/main.00942da2.css",
-    "main.js": "/Rollingthunder_ttu/static/js/main.9426eec8.js",
+    "main.css": "/Rollingthunder_ttu/static/css/main.381b9ada.css",
+    "main.js": "/Rollingthunder_ttu/static/js/main.6492b0c6.js",
     "static/media/image-from-rawpixel-id-3318351-original.jpg": "/Rollingthunder_ttu/static/media/image-from-rawpixel-id-3318351-original.71e26716bd11021a4a5e.jpg",
+    "static/media/00-35D-54.pdf": "/Rollingthunder_ttu/static/media/00-35D-54.65f6d61f27063971f22f.pdf",
     "static/media/dependencies.jpg": "/Rollingthunder_ttu/static/media/dependencies.0755fd5022e2d9949cf1.jpg",
     "static/media/classdiagram.jpg": "/Rollingthunder_ttu/static/media/classdiagram.954cbd9174456170d1b6.jpg",
     "static/media/components.jpg": "/Rollingthunder_ttu/static/media/components.30c5c07d333d4820e38e.jpg",
@@ -14,11 +15,11 @@
     "static/media/vcr-jp.ttf": "/Rollingthunder_ttu/static/media/vcr-jp.f785e116c4cfca2a9ab8.ttf",
     "static/media/logo.svg": "/Rollingthunder_ttu/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Rollingthunder_ttu/index.html",
-    "main.00942da2.css.map": "/Rollingthunder_ttu/static/css/main.00942da2.css.map",
-    "main.9426eec8.js.map": "/Rollingthunder_ttu/static/js/main.9426eec8.js.map"
+    "main.381b9ada.css.map": "/Rollingthunder_ttu/static/css/main.381b9ada.css.map",
+    "main.6492b0c6.js.map": "/Rollingthunder_ttu/static/js/main.6492b0c6.js.map"
   },
   "entrypoints": [
-    "static/css/main.00942da2.css",
-    "static/js/main.9426eec8.js"
+    "static/css/main.381b9ada.css",
+    "static/js/main.6492b0c6.js"
   ]
 }
